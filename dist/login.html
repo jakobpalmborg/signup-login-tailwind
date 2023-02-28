@@ -12,20 +12,20 @@
         <h2 class="p-4 text-stone-50 text-2xl"><a href="#">&#36;ign&#9739;p&&#10551;og&#33;n</a></h2>
         
         <nav class="flex justify-evenly p-4">
-            <a class="text-stone-50" href="#">Home</a>
+            <a class="text-stone-50" href="./index.html">Home</a>
             <a class="text-stone-50" href="./signup.html">SignUp</a>
-            <a class="text-stone-50" href="./login.html">LogIn</a>
+            <a class="text-stone-50 font-bold underline decoration-solid decoration-8 underline-offset-8" href="#">LogIn</a>
         </nav>
         
     </header>
-    <main class="bg-stone-300 max-w-screen-lg m-auto h-screen">
-        <h1>LogIn</h1>
-        <form action="">
-            <label for="login-username">Användarnamn:</label>
-            <input type="text" id="login-username" required>
-            <label for="login-password">Lösenord:</label>
-            <input type="password" id="login-password" required>
-            <input type="submit">
+    <main class="bg-stone-200 max-w-screen-lg m-auto h-screen">
+        <h1 class="ml-10 pt-4 text-lg font-bold">LogIn</h1>
+        <form class="m-10 flex flex-col" action="">
+            <label for="login-username">User Name</label>
+            <input class="mb-4 w-60 rounded" type="text" id="login-username" required>
+            <label for="login-password">Password</label>
+            <input class="mb-4 w-60 rounded" type="password" id="login-password" required>
+            <input class="text-center font-bold bg-blue-700 text-stone-50 rounded-2xl border-2 border-stone-800 w-20 p-2" type="submit">
         </form>
     </main>
     <footer class="bg-stone-800 h-32 fixed bottom-0 w-full">

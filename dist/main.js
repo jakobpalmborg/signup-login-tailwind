@@ -7,13 +7,13 @@ let indicatorValue = document.createElement("small");
 
 function passwordStrength() {
     if (password.value.length < 4) {
-        indicatorValue.innerHTML = "svagt";
+        indicatorValue.innerHTML = "weak";
         indicatorContainer.appendChild(indicatorValue);
     } else if (password.value.length < 7) {
         indicatorValue.innerHTML = "medium";
         indicatorContainer.appendChild(indicatorValue);
     } else {
-        indicatorValue.innerHTML = "starkt";
+        indicatorValue.innerHTML = "strong";
         indicatorContainer.appendChild(indicatorValue);
     }
 }
