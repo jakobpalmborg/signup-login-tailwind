@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-    <header>
-        <h2><a href="./index.html">&#36;ign&#9739;p&&#10551;og&#33;n</a></h2>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./signup.html">SignUp</a>
-            <a href="#">LogIn</a>
+    <header class="bg-stone-800 h-32"  >
+        <h2 class="p-4 text-stone-50 text-2xl"><a href="#">&#36;ign&#9739;p&&#10551;og&#33;n</a></h2>
+        
+        <nav class="flex justify-evenly p-4">
+            <a class="text-stone-50" href="#">Home</a>
+            <a class="text-stone-50" href="./signup.html">SignUp</a>
+            <a class="text-stone-50" href="./login.html">LogIn</a>
         </nav>
+        
     </header>
-    <main>
+    <main class="bg-stone-300 max-w-screen-lg m-auto h-screen">
         <h1>LogIn</h1>
         <form action="">
             <label for="login-username">Användarnamn:</label>
@@ -26,8 +28,8 @@
             <input type="submit">
         </form>
     </main>
-    <footer>
-        <small>&#169 2023 Palmborg</small>
+    <footer class="bg-stone-800 h-32 fixed bottom-0 w-full">
+        <p class="p-4 text-stone-50 text-center">&#169 2023 Palmborg</p>
     </footer>
 </body>
 </html>
